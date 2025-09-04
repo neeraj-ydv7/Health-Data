@@ -1,39 +1,47 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Python / Flask
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+instance/
+.env
+*.env
+venv/
+env/
+.venv/
+*.log
+*.db
+models/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# IntelliJ / PyCharm
+.idea/
 *.iml
 *.ipr
+*.iws
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# Node / Frontend (if any)
+node_modules/
+dist/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
 
-### Mac OS ###
-.DS_Storeml/.venv/ 
-__pycache__/ 
+# Maven
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# OS / System files
+.DS_Store
+Thumbs.db
+
+# Other
+*.swp
+*.swo
